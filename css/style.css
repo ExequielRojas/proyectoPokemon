@@ -19,6 +19,11 @@ main{
     width: 250px;
 }
 
+.imgCardIntegrantes{
+    object-fit: contain;
+    height: 350px;
+}
+
 
 /* ************** */
 /* MEDIAS QUERIES */
@@ -35,5 +40,5 @@ main{
 @media (min-width: 992px) {
     .bannerPokemon{
         width: 800px;
-    }    
+    }  
 }

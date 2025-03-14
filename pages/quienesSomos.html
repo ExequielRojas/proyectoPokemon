@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,8 +11,9 @@
     <link rel="stylesheet" href="../css/style.css">
     <title>¿Quienes somos?</title>
 </head>
+
 <body>
-    
+
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
@@ -34,13 +36,58 @@
         </nav>
     </header>
     <main>
-        <section class="text-center">
-            <img src="../img/logoPokemonQuienesSomos.png" class="img-fluid bannerPokemon my-4" alt="cartel de pokemon">
-            <h2>¿Quiénes Somos?</h2>
+        <section class="container text-center">
+            <article>
+                <img src="../img/logoPokemonQuienesSomos.png" class="img-fluid bannerPokemon my-4"
+                    alt="cartel de pokemon">
+                <h1 class="display-4 fw-bold mb-4">¿Quiénes Somos?</h1>
+                <p class="my-3 fst-italic">Somos estudiantes de Rolling Code School, que conformamos un grupo de 3
+                    integrantes para poner en practica lo aprendido en las clases con Git y GitHub</p>
+            </article>
+
+            <article>
+                <!-- Grilla con fotos de los integrantes del grupo -->
+                <div class="row row-cols-1 row-cols-md-3 g-4 mt-3 mx-2 mx-md-5 text-center ">
+                    <div class="col">
+                        <div class="card">
+                            <img src="../img/perfilQuienesSomos.png" class="card-img-top imgCardIntegrantes" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="../img/perfilQuienesSomos.png" class="card-img-top imgCardIntegrantes" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="../img/perfilQuienesSomos.png" class="card-img-top imgCardIntegrantes" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
         </section>
     </main>
     <footer></footer>
 
     <script src="../js/bootstrap.min.js"></script>
 </body>
+
 </html>
