@@ -24,6 +24,26 @@ main{
     height: 350px;
 }
 
+.colorFondoCardRosa {
+    background-color: #ff8dec; 
+}
+
+
+.colorBordeCardRosa {
+    border-color: #ff8dec;
+    
+}
+
+
+.colorFondoCardNaranja {
+    background-color: #e0850e; 
+}
+
+
+.colorBordeCardNaranja {
+    border-color:#e0850e;
+    
+}
 
 /* ************** */
 /* MEDIAS QUERIES */
