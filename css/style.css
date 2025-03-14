@@ -32,6 +32,23 @@ footer{
     object-fit: cover;
 }
 
+.fuente-pokedex-card{
+    font-family: "Exo 2", sans-serif;
+    font-weight: 700;
+}
+
+.badge-veneno{
+    background: rgb(103, 8, 116);
+}
+
+.badge-fuego{
+    background: orange;
+}
+
+.badge-agua{
+    background: rgb(36, 167, 211);
+}
+
 @media (min-width: 320px) and (max-width: 425px){
     .img-banner-pokemon{
         height: 120px;
