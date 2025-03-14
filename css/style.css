@@ -6,6 +6,11 @@ body{
 
 main{
     flex-grow: 1;
+    background-image: url('../img/container_bg.png'); /* Ruta de la imagen */
+        background-size: cover; /* Ajusta la imagen para cubrir todo el área */
+        background-position: center; /* Centra la imagen */
+        background-repeat: no-repeat; /* Evita que la imagen se repita */
+        min-height: 100vh; /* Asegura que el main tenga al menos el alto de la pantalla */
 }
 
 /*** PAGINA QUIENES SOMOS ***/
