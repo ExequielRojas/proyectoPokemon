@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,48 +11,101 @@
     <link rel="stylesheet" href="../css/style.css">
     <title>¿Quienes somos?</title>
 </head>
+
 <body>
-    
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container">
-              <a class="navbar-brand" href="../index.html">Pokedex</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Elementos
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Fuego</a></li>
-                      <li><a class="dropdown-item" href="#">Agua</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Tierra</a></li>
+                <a class="navbar-brand" href="../index.html">Pokedex</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Elementos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Fuego</a></li>
+                                <li><a class="dropdown-item" href="#">Agua</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Tierra</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./quienesSomos.html">Sobre Nosotros</a>
+                        </li>
                     </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="./quienesSomos.html">Sobre Nosotros</a>
-                  </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Buscar Pokemon" aria-label="Search">
-                  <button class="btn btn-outline-light" type="submit">Buscar</button>
-                </form>
-              </div>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar Pokemon" aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Buscar</button>
+                    </form>
+                </div>
             </div>
-          </nav>
+        </nav>
     </header>
-    <main></main>
+    <main>
+        <section class="container text-center">
+            <article>
+                <img src="../img/logoPokemonQuienesSomos.png" class="img-fluid bannerPokemon my-4"
+                    alt="cartel de pokemon">
+                <h1 class="display-4 fw-bold mb-4">¿Quiénes Somos?</h1>
+                <p class="my-3 fst-italic">Somos estudiantes de Rolling Code School, que conformamos un grupo de 3
+                    integrantes para poner en practica lo aprendido en las clases con Git y GitHub</p>
+            </article>
+
+            <article class="mb-5">
+                <!-- Grilla con fotos de los integrantes del grupo -->
+                <div class="row row-cols-1 row-cols-md-3 g-4 mt-3 mx-2 mx-md-3 mx-lg-5 text-center ">
+                    <div class="col">
+                        <div class="card h-100 colorBordeCardRosa">
+                            <img src="../img/perfilQuienesSomos.png" class="card-img-top imgCardIntegrantes py-3"
+                                alt="Avatar Exequiel Rojas">
+                            <div class="card-body colorFondoCardRosa text-dark">
+                                <h5 class="card-title border-bottom border-dark fw-bold pb-3">Exequiel Rojas</h5>
+                                <p class="card-text">Entrenador Pokemon</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-info">
+                            <img src="../img/perfilQuienesSomos2.png" class="card-img-top imgCardIntegrantes"
+                                alt="Avatar Ximena Barrientos">
+                            <div class="card-body text-bg-info text-dark">
+                                <h5 class="card-title border-bottom border-dark fw-bold pb-3">Claudia Ximena Barrientos
+                                </h5>
+                                <p class="card-text">Entrenadora Pokemon</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 colorBordeCardNaranja">
+                            <img src="../img/perfilQuienesSomos3.png" class="card-img-top imgCardIntegrantes py-lg-2"
+                                alt="Avatar Valentina Iramain">
+                            <div class="card-body colorFondoCardNaranja text-dark">
+                                <h5 class="card-title border-bottom border-dark fw-bold pb-3">Valentina Iramain</h5>
+                                <p class="card-text">Entrenadora Pokemon</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
     <footer class="text-center py-3">
         <p>&copy; Todos los derechos reservados</p>
     </footer>
 
     <script src="../js/bootstrap.min.js"></script>
 </body>
+
 </html>

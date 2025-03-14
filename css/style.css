@@ -1,31 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap");
 
-body{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-main{
-    flex-grow: 1;
+main {
+  flex-grow: 1;
+  background-image: url("../img/container_bg.png"); /* Ruta de la imagen */
+  background-size: cover; /* Ajusta la imagen para cubrir todo el área */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
 }
 
-.navbar{
-    font-family: "Exo 2", sans-serif;
-    font-weight: 700;
-    background-color: rgb(230, 27, 27) !important;
-
-    a{
-        color: white;
-    }
+/*** PAGINA QUIENES SOMOS ***/
+.bannerPokemon {
+  object-fit: cover;
+  width: 250px;
 }
 
-footer{
-    font-family: "Exo 2", sans-serif;
-    font-weight: 700;
-    background: rgb(212, 9, 2);
+.imgCardIntegrantes {
+  object-fit: contain;
+  height: 350px;
+}
+
+.colorFondoCardRosa {
+  background-color: #ff8dec;
+}
+
+.colorBordeCardRosa {
+  border-color: #ff8dec;
+}
+
+.colorFondoCardNaranja {
+  background-color: #e0850e;
+}
+
+.colorBordeCardNaranja {
+  border-color: #e0850e;
+}
+
+.navbar {
+  font-family: "Exo 2", sans-serif;
+  font-weight: 700;
+  background-color: rgb(230, 27, 27) !important;
+
+  a {
     color: white;
+  }
 }
+
+footer {
+  font-family: "Exo 2", sans-serif;
+  font-weight: 700;
+  background: rgb(212, 9, 2);
+  color: white;
+}
+
+
 
 .img-banner-pokemon{
     height: 300px;
@@ -72,4 +105,21 @@ footer{
     .img-banner-pokemon{
         height: 550px;
     }
+}
+/* ******************************/
+/* MEDIAS QUERIES QUIENES SOMOS*/
+/* *****************************/
+
+/* dispositivos medianos */
+@media (min-width: 768px) and (max-width: 991px) {
+  .bannerPokemon {
+    width: 550px;
+  }
+}
+
+/* dispositivos grandes */
+@media (min-width: 992px) {
+  .bannerPokemon {
+    width: 800px;
+  }
 }
