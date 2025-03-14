@@ -7,3 +7,28 @@ body{
 main{
     flex-grow: 1;
 }
+
+/*** PAGINA QUIENES SOMOS ***/
+.bannerPokemon{
+    object-fit: cover;
+    width: 250px;
+}
+
+
+/* ************** */
+/* MEDIAS QUERIES */
+/* ************** */
+
+/* dispositivos medianos */
+@media (min-width: 768px) and (max-width: 991px) {
+    .bannerPokemon{
+        width: 550px;
+    }    
+}
+
+/* dispositivos grandes */
+@media (min-width: 992px) {
+    .bannerPokemon{
+        width: 800px;
+    }    
+}
