@@ -92,6 +92,10 @@ footer {
   background: #501f1f;
 }
 
+.fondo-imagen-dark{
+  background-image: url("../img/body_gray_bg.png");
+}
+
 @media (min-width: 320px) and (max-width: 425px){
     .img-banner-pokemon{
         height: 120px;
