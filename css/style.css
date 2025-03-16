@@ -1,9 +1,139 @@
-body{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-main{
-    flex-grow: 1;
+main {
+  flex-grow: 1;
+  background-image: url("../img/container_bg.png"); /* Ruta de la imagen */
+  background-size: cover; /* Ajusta la imagen para cubrir todo el área */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+/*** PAGINA QUIENES SOMOS ***/
+.bannerPokemon {
+  object-fit: cover;
+  width: 250px;
+}
+
+.imgCardIntegrantes {
+  object-fit: contain;
+  height: 350px;
+}
+
+.colorFondoCardRosa {
+  background-color: #ff8dec;
+}
+
+.colorBordeCardRosa {
+  border-color: #ff8dec;
+}
+
+.colorFondoCardNaranja {
+  background-color: #e0850e;
+}
+
+.colorBordeCardNaranja {
+  border-color: #e0850e;
+}
+
+.navbar {
+  font-family: "Exo 2", sans-serif;
+  font-weight: 700;
+  background-color: rgb(230, 27, 27) !important;
+
+  a {
+    color: white;
+  }
+}
+
+footer {
+  font-family: "Exo 2", sans-serif;
+  font-weight: 700;
+  background: rgb(212, 9, 2);
+  color: white;
+}
+
+
+
+.img-banner-pokemon{
+    height: 300px;
+    object-fit: cover;
+}
+
+.fuente-pokedex-card{
+    font-family: "Exo 2", sans-serif;
+    font-weight: 700;
+}
+
+.badge-veneno{
+    background: rgb(103, 8, 116);
+}
+
+.badge-fuego{
+    background: orange;
+}
+
+.badge-agua{
+    background: rgb(36, 167, 211);
+}
+
+.badge-volador{
+  background-color: #e9bc62;
+  background-image: linear-gradient(0deg, #ecc068 0%, #30d3e9 100%);
+}
+
+.badge-tierra{
+  background: #501f1f;
+}
+
+.fondo-imagen-dark{
+  background-image: url("../img/body_gray_bg.png");
+}
+
+@media (min-width: 320px) and (max-width: 425px){
+    .img-banner-pokemon{
+        height: 120px;
+        
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px){
+    .img-banner-pokemon{
+        height: 200px;
+        
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 2559px){
+    .img-banner-pokemon{
+        height: 400px;
+    }
+}
+@media (min-width: 2560px){
+    .img-banner-pokemon{
+        height: 550px;
+    }
+}
+/* ******************************/
+/* MEDIAS QUERIES QUIENES SOMOS*/
+/* *****************************/
+
+/* dispositivos medianos */
+@media (min-width: 768px) and (max-width: 991px) {
+  .bannerPokemon {
+    width: 550px;
+  }
+}
+
+/* dispositivos grandes */
+@media (min-width: 992px) {
+  .bannerPokemon {
+    width: 800px;
+  }
 }

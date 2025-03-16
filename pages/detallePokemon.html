@@ -11,10 +11,134 @@
     <title>Detalles del pokemon</title>
 </head>
 <body>
-    
-    <header></header>
-    <main></main>
-    <footer></footer>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+              <a class="navbar-brand" href="../index.html">Pokedex</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Elementos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Fuego</a></li>
+                      <li><a class="dropdown-item" href="#">Agua</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Tierra</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./quienesSomos.html">Sobre Nosotros</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar Pokemon" aria-label="Search">
+                  <button class="btn btn-outline-light" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+      <div class="container d-grid gap-2 d-flex justify-content-around mt-2">
+        <button type="button" class="btn btn-secondary text-light text-center w-100"><a href="../index.html" class="link-light link-underline">Charmeleon N°0005</a></button>
+        <button type="button" class="btn btn-secondary text-light text-center w-100"><a href="../index.html" class="link-light link-underline">Squirtle N°0007</a></button>
+      </div>
+      <section class="container">
+        <div class="card border-danger border-2 my-2">
+          <div class="card-header bg-danger-subtle">
+            <h2 class="display-5 text-center text-danger">Charizard N°0006</h2>
+            <div class="row ">
+              <div class="col-lg-4 h-100">
+                <div class="bg-warning-subtle text-center">
+                  <img src="../img/Charizard.png" alt="pokemon charizard" class="w-75">
+                </div>
+                <p class="fst-italic fw-bold">Escupe un fuego tan caliente que funde las rocas. Causa incendios forestales sin querer.</p>
+              </div>
+              <div class="col-lg-8 h-100">
+                <div class="bg-info p-3">
+                  <div class="d-flex justify-content-between">
+                    <div class="d-flex flex-column justify-content">
+                      <div>
+                        <h5 class="fw-light text-light">Altura</h5>
+                        <p class="fw-bold">1,7M</p>
+                      </div>
+                      <div>
+                        <h5 class="fw-light text-light">Peso</h5>
+                        <p class="fw-bold">90,5 kg</p>
+                      </div>
+                      <div>
+                        <h5 class="fw-light text-light">Sexo</h5>
+                        <p class="fw-bold"><i class="bi bi-gender-female"></i><i class="bi bi-gender-male"></i></p>
+                      </div>
+                    </div>
+                    <div class="d-flex flex-column justify-content me-5">
+                      <div>
+                        <h5 class="fw-light text-light">Categoria</h5>
+                        <p class="fw-bold">Llama</p>
+                      </div>
+                      <div>
+                        <h5 class="fw-light text-light">Habilidad</h5>
+                        <p class="fw-bold">Mar Llamas</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="bg-secondary mt-2 py-1 px-2">
+                  <h5 class="fw-light text-light">Tipo</h5>
+                  <p><span class="badge rounded-pill badge-fuego">Fuego</span>
+                    <span class="badge rounded-pill badge-volador">Volador</span>
+                  </p>
+                  <h5 class="fw-light text-light">Debilidad</h5>
+                  <p>
+                    <span class="badge rounded-pill text-bg-info">Agua</span>
+                    <span class="badge rounded-pill badge-tierra">Tierra</span>
+                    <span class="badge rounded-pill text-bg-dark">Roca</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-body fondo-imagen-dark text-light">
+            <h5 class="card-title">Evoluciones</h5>
+            <div class="row">
+              <div class="col-md-4 text-center">
+                <img src="../img/Charmander.png" alt="Charmander">
+                <h6>Charmander</h6>
+                <p class="text-dark">Nº0004</p>
+                <p><span class="badge badge-fuego p-2">Fuego</span></p>
+              </div>
+              <div class="col-md-4 text-center">
+                <img src="../img/Charmeleon.png" alt="Charmaleon">
+                <h6>Charmaleon</h6>
+                <p class="text-dark">Nº0005</p>
+                <p><span class="badge badge-fuego p-2">Fuego</span></p>
+              </div>
+              <div class="col-md-4 text-center">
+                <img src="../img/Charizard.png" alt="Charizard">
+                <h6>Charizard</h6>
+                <p class="text-dark">Nº0006</p>
+                <p><span class="badge badge-fuego p-2">Fuego</span> <span class="badge badge-volador p-2">Volador</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer bg-danger-subtle text-end">
+            <button type="button" class="btn btn-primary"><a href="../index.html" class="link-light link-underline">Ir a la Pokedex</a></button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="text-center py-3">
+        <p>&copy; Todos los derechos reservados</p>
+    </footer>
 
     <script src="../js/bootstrap.min.js"></script>
 </body>
